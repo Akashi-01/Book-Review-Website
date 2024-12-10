@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://kit.fontawesome.com/990a6cc3d0.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(bg.Attach1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .sub-title{
+            text-align: center;
+            color: #470419;
+            text-decoration: underline;
+        }
+        .contact-left{
+            flex-basis: 35%;
+        }
+        .contact-right{
+            flex-basis: 60%;
+        }
+        .contact-left p{
+            margin-top: 30px;
+            color: 000;
+            font-size: 35px;
+        }
+        .contact-left p i{
+            color: #470419;
+            margin-right: 15px;
+            font-size: 25px;
+        }
+        .contact-right form{
+            width: 100%;
+        }
+        form input, form textarea{
+            width: 60%;
+            border: 0;
+            outline: none;
+            background: #ada4a4;
+            padding: 15px;
+            margin:15px 0px;
+            font-size: 18px;
+            border-radius: 6px;
+        }
+        form .btn2{
+            padding: 14px 60px;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .btn{
+            display: block;
+            margin: 50px auto;
+            width: fit-content;
+            border: 1px solid #470419;
+            padding: 14px 50px;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #fff;
+            transition: background 0.5s;
+        }
+        .btn:hover{
+            background: #470419;
+        }
+    </style>
+</head>
+<body>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>We'd love to hear from you! Whether you have a question, suggestion, or just want to share your love for books, our team is here to connect with fellow book lovers.</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>Bookify@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8864937121</p>
+                    <p>Get in touch with us through our social media channels:</p>
+                    <p><i class="fa-brands fa-facebook"></i>Facebook: Bookify</p>
+                    <p><i class="fa-brands fa-instagram"></i>Instagram: @Bookify</p>
+                    <p><i class="fa-brands fa-twitter"></i>Twitter: @Bookify</p>
+                    <p>For any inquiries regarding reviews, collaboration, or general information, please fill out the form below, and we'll get back to you as soon as possible!</p>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" class="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="My Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
